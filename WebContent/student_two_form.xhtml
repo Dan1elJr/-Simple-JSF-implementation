@@ -24,9 +24,8 @@ xmlns:f="http://xmlns.jcp.org/jsf/core">
 		
 		<h:selectOneMenu value="#{studentTwo.country}">
 			
-			<f:selectItem itemValue="Brazil" itemlabel ="Brazil"/>
-			<f:selectItem itemValue="France" itemlabel ="France"/>
-			<f:selectItem itemValue="Germany" itemlabel ="Germany"/>
+			<f:selectItem value="#{studentTwo.countryOptions}"/>
+			
 		
 		</h:selectOneMenu>
 		
